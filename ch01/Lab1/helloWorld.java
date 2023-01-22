@@ -3,9 +3,9 @@
  * R Stone
  */
 
-package ch01;
+package ch01.Lab1;
 
-public class lab_1 {
+public class helloWorld {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
