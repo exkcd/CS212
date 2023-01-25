@@ -23,9 +23,19 @@ public class usingArrayList {
         System.out.println("List of random numbers by ArrayList:");
         System.out.println(numList);
 
-        Collections.sort(numList); // sorted by smallest to largest value
+        Collections.sort(numList); // sorted by smallest to the largest value
 
         System.out.println("\nSorted numbers by increasing value:");
+        System.out.println(numList);
+
+        // adding a new value
+        numList.add(1);
+        System.out.println("\nList of random numbers with new value added:");
+        System.out.println(numList);
+
+        // sorted list again
+        Collections.sort(numList);
+        System.out.println("\nNew list sorted by increasing value:");
         System.out.println(numList);
 
         // country ArrayList
@@ -47,6 +57,16 @@ public class usingArrayList {
         Collections.sort(nationList); // sorting using Collections modulee
 
         System.out.println("\nAlphabetized list of random nations:");
+        System.out.println(nationList);
+
+        // adding a new nation
+        nationList.add("Madagascar");
+        System.out.println("\nList of random nations with new value added:");
+        System.out.println(nationList);
+
+        // sorted list again
+        Collections.sort(nationList);
+        System.out.println("\nNew list alphabetized:");
         System.out.println(nationList);
     }
 }
