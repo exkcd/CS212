@@ -9,3 +9,5 @@ The assignments for this chapter are as follows:
 **Lab 1:** IntelliJ Idea setup and test.
 
 **Lab 2:** Refresh your knowledge of arrays and ArrayLists.
+
+**Lab 3:** Using both ArrayLists and OOP, create top 10 lists as well as develop a web application.
