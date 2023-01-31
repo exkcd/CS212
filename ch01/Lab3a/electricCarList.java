@@ -5,7 +5,7 @@
 * R Stone
 */
 
-package ch01.Lab3;
+package ch01.Lab3a;
 
 import java.util.ArrayList;
 
