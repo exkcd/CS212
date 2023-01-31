@@ -1,4 +1,4 @@
-package ch01.Lab3b.ElectricCarList.src.main.java.edu.dccc.TopElectricCars;
+package ch02.Lab3b.ElectricCarList.src.main.java.edu.dccc.TopElectricCars;
 
 import java.text.NumberFormat;
 
