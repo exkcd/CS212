@@ -10,7 +10,7 @@ package ch02.Lab3a;
 import java.util.ArrayList;
 
 public class electricCarList {
-    ArrayList<ElectricCar> carList = new ArrayList<>();
+    ArrayList<ElectricCar> carList = new ArrayList<>(); // initialized an empty ArrayList
 
     public static void main(String[] args) {
         electricCarList cars = new electricCarList();
@@ -22,6 +22,7 @@ public class electricCarList {
         cars.printList();
     }
 
+    // populates the ArrayList with electric cars.
     public void addCars() {
         carList.add(new ElectricCar("2022 Mercedes-Benz EQS Sedan", 147500, 99, 9.2, 1, "sedan"));
         carList.add(new ElectricCar("2022 Lucid Air", 169000, 122, 9.1, 2, "sedan"));
@@ -34,6 +35,7 @@ public class electricCarList {
         carList.add(new ElectricCar("2023 Tesla Model S", 135990, 115, 8.0, 9, "sedan"));
     }
 
+    // prints the list by going from index to the end
     public void printList() {
         for (ElectricCar i : carList) {
             System.out.println(i);
@@ -42,6 +44,8 @@ public class electricCarList {
 }
 
 class ElectricCar {
+    // electric car object
+    
     final String modelName;
     final double mfgPrice;
     final int maxRange;
