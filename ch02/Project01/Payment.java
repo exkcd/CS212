@@ -1,6 +1,4 @@
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.text.NumberFormat;
 
 enum PaymentType{CreditCard, BankTransfer, Mail, RewardsVisa}
 
