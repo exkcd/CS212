@@ -7,7 +7,7 @@
 * R Stone
 */
 
-package ch04;
+package ch04.Project04;
 
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
