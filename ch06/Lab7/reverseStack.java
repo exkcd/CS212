@@ -38,5 +38,7 @@ public class reverseStack {
 
         System.out.println("Reversed stack: " + revStack);
         System.out.println("Reversed number: " + rev_num);
+
+        in.close();
     }
 }

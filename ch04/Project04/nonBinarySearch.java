@@ -216,6 +216,7 @@ public class nonBinarySearch {
             }
         }
         System.out.println("Goodbye...");
+        in.close();
     }
 
     public void binarySearchDriver() {

@@ -18,6 +18,8 @@ public class reverseSentence {
         String input = in.nextLine();
 
         reverse(input);
+
+        in.close();
     }
 
     static void reverse(String input) {
