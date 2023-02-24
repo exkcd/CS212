@@ -9,6 +9,8 @@ Homework is organized into folders by chapters with a file called `assignment.md
 
 The folder `experiments` hold random tested code that may or may not be useful to a certain degree.
 
+**Note:** There are some assignments that I hvae not included within this little project due to the complexity of their nature, and the fact that those assignments were mostly just copy-paste.
+
 ### About the class
 The course textbook that is being used is:
 
