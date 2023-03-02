@@ -5,3 +5,12 @@ Chapter 6 is an introduction to the most common data structures. This chapter in
 ## Assignments
 
 **Lab 7:** These labs are a showcase of stacks and how to use them. The first lab takes a number like '1337' and reverses the order of the digits to '7331'. The second lab take a sentence like 'The quick brown fox. He jumped over the lazy dog.' and reverses the order of the words in a sentence.
+
+**Project 05:** Create an interactive to-do list using a PriorityQueue data structure. The interactive test driver loop should have functions that:
+
+1. add tasks
+2. remove tasks by specific id
+3. edit tasks
+4. view a specific task
+5. view the entire list of tasks
+6. view the next task using an iterator
