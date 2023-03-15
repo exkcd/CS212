@@ -14,3 +14,5 @@ Chapter 6 is an introduction to the most common data structures. This chapter in
 4. view a specific task
 5. view the entire list of tasks
 6. view the next task using an iterator
+
+**Lab 8:** This lab utilizes linked lists as a way to organise flight schedules in a dystopian type airport setting. It should organize flights based off of a status either *scheduled* or *queued*, and also removes flights that have other problems with it. This LinkedList also takes into account a "president" and the ability to jump a queue using a LinkedList. CSV Files and scanners are also used.
