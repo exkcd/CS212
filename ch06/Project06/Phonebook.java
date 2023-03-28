@@ -77,6 +77,7 @@ public class Phonebook {
                 System.out.println("-_-");
             }
         } while (competent);
+        scanner.close();
     }
 
     public void addNode(PhonebookData data) {
