@@ -16,3 +16,5 @@ Chapter 6 is an introduction to the most common data structures. This chapter in
 6. view the next task using an iterator
 
 **Lab 8:** This lab utilizes linked lists as a way to organise flight schedules in a dystopian type airport setting. It should organize flights based off of a status either *scheduled* or *queued*, and also removes flights that have other problems with it. This LinkedList also takes into account a "president" and the ability to jump a queue using a LinkedList. CSV Files and scanners are also used.
+
+**Project 6:** Use a Doubly Linked List to contain a directory of names and phone numbers associated with those names. Implement the use of a TreeSet to search for a specific name either at the head or tail of the Doubly Linked List.
