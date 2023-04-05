@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class SpellChecker {
-    public static void main (String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
         SpellChecker spellCheck = new SpellChecker();
 
         spellCheck.spellCheckerTest();
@@ -54,7 +54,6 @@ public class SpellChecker {
         Set<String> documentTree = readTreeWords("./ch07/Lab9/resources/war-and-peace.txt");
         ArrayList<String> documentArray = readArrayWords("./ch07/Lab9/resources/war-and-peace.txt");
 
-
         // HashSet test
         int wordCount = 0;
 
@@ -65,16 +64,16 @@ public class SpellChecker {
                 wordCount++;
             }
         }
-        stopwatch.stop();
 
         System.out.println("Words not found: " +
                 wordCount +
                 "\nWords in dictionary: " +
                 dictionaryHash.size());
 
+        stopwatch.stop();
+
         System.out.println("Elapsed HashSet time: " + stopwatch.getElapsedTime() + " ms\n\n");
         stopwatch.reset();
-
 
         // TreeSet Test
         wordCount = 0;
@@ -86,16 +85,16 @@ public class SpellChecker {
                 wordCount++;
             }
         }
-        stopwatch.stop();
 
         System.out.println("Words not found: " +
                 wordCount +
                 "\nWords in dictionary: " +
                 dictionaryTree.size());
 
+        stopwatch.stop();
+
         System.out.println("Elapsed TreeSet time: " + stopwatch.getElapsedTime() + " ms\n\n");
         stopwatch.reset();
-
 
         // ArrayList Test
         wordCount = 0;
@@ -107,12 +106,13 @@ public class SpellChecker {
                 wordCount++;
             }
         }
-        stopwatch.stop();
-
+        
         System.out.println("Words not found: " +
-                wordCount +
-                "\nWords in dictionary: " +
-                dictionaryArray.size());
+        wordCount +
+        "\nWords in dictionary: " +
+        dictionaryArray.size());
+        
+        stopwatch.stop();
 
         System.out.println("Elapsed TreeSet time: " + stopwatch.getElapsedTime() + " ms\n\n");
         stopwatch.reset();
