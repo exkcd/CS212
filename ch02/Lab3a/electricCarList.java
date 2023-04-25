@@ -1,4 +1,3 @@
-
 /* This program generates a list of the top 10 electric cars to buy in 2023 by
 * utilizing functions, ArrayLists, and classes.
 *
