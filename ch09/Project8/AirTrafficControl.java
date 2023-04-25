@@ -1,9 +1,8 @@
 /*
  * In this assignment, you will create a program that uses queues to simulate a busy airport with only one runway,
- * that shares aircraft take-off, and landings. Your program will function as an automated air-traffic controller
- * . Hopefully, you will do at least as well as some human-run airports that we have all experienced either
+ * that shares aircraft take-off, and landings. Your program will function as an automated air-traffic controller.
+ * Hopefully, you will do at least as well as some human-run airports that we have all experienced either
  * pleasantly, or not so much.
- *
  *
  * R Stone
  */
