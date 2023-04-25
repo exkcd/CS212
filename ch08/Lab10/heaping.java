@@ -1,7 +1,6 @@
 /*
  * This lab showcases how the heap algorithm works and shorts through an array of numbers. Min heap and max heap are used.
  * 
- * 
  * R Stone
  */
 
