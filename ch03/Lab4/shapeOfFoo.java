@@ -1,4 +1,3 @@
-
 /* This lab implements the use of interfaces, inheritance as well as OOP to create some attributes for commong
 * geometric shapes.
 *
