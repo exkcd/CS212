@@ -1,6 +1,7 @@
 /*
  * This project is a simulation of a flight queue using LinkedLists and Priority Queues.
- * It uses a CSV file to import data and sort through the data based on defined attributes in the Flight.java file. The ReadCSV.java file organizes and reads the CSV file in teh resources folder.
+ * It uses a CSV file to import data and sort through the data based on defined attributes in the Flight.java file. 
+ * The ReadCSV.java file organizes and reads the CSV file in teh resources folder.
  * 
  * R Stone
  */
