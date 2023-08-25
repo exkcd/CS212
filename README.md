@@ -11,7 +11,7 @@ The folder `experiments` hold random tested code that may or may not be useful t
 
 **Note:** There are some assignments that I hvae not included within this little project due to the complexity of their nature, and the fact that those assignments were mostly just copy-paste.
 
-### About the class
+## About the class
 The course textbook that is being used is:
 
 *Big Java: Late Objects* 2nd Edition by Cay S. Horstmann
